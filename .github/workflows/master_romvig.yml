@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'romvig'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_55ae8e4f6748412580d23c03c4b94674 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b423e0753cfa4e49b355b0a2fad500b3 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
